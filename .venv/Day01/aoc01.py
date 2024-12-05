@@ -10,7 +10,7 @@ input_left = []
 input_right = []
 distance = 0
 
-with open('aoc01_input1', 'r') as f:
+with open('../Day01/aoc01_input1', 'r') as f:
     for line in f.readlines():
         x, y = (int(z) for z in line.split())
         input_left.append(x)
@@ -28,7 +28,7 @@ print(f"total distance: {distance}")
 # Part 2
 similarity = 0
 
-with open('aoc01_input2', 'r') as f:
+with open('../Day01/aoc01_input2', 'r') as f:
     for line in f.readlines():
         x, y = (int(z) for z in line.split())
         input_left.append(x)
